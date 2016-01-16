@@ -50,7 +50,7 @@ a {
 }
 
 #home-content {
-  margin-top: 12%;
+  margin-top: 15%;
   text-align: center;
 }
 
@@ -58,8 +58,4 @@ a {
   height: 2em;
   width: 2em;
   margin-left: 1em;
-}
-
-#about-content {
-  margin: 10%;
 }
