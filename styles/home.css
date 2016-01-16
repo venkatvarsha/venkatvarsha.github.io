@@ -8,21 +8,24 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Abel';
+  color: #ffffff;
+  background-color: rgba(141, 166, 166, 0.5);
 }
 
 a {
-  color: #a5e0e0;
+  color: inherit;
   text-decoration: inherit;
 }
 
-/* animations */
+a:hover {
+  color: #a5e0e0;
+}
 
 /* class &  id properties */
 
 #navbar {
   height: 3.3em;
   width: 100%;
-  background-color: #4c4d4d;
   padding-left: 60%;
 }
 
