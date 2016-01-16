@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+/* general settings */
+
+body {
+  font-family: "Abel";
+}
+
+li {
+  list-style: none;
+  font-size: 1.25em;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #a5e0e0;
+}
+
+/* animations */
+
+@keyframes spin {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+#dropdown {
+  margin: 0.75em 0 0 4em;
+  width: 6em;
+  height: 5em;
+  position: fixed;
+}
+
+#logo {
+  width: 2.5em;
+  position: fixed;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 50%;
+  background-color: #5b6464;
+}
+
+#logo:hover {
+  cursor: pointer;
+  animation: spin 0.75s 0s 1 linear;
+}
+
+#terminal {
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 5%;
+  border: 0.5em solid #d0d0d0;
+  border-radius: 1em;
+  box-shadow: 0.5em 0.5em 0.5em #888888;
+  background-color: black;
+  width: 60%;
+  height: 75%;
+}
+
+#bar {
+  background-color: #d0d0d0;
+  position: absolute;
+  width: 100%;
+  height: 2em;
+}
+
+.circle {
+  border: 1px solid #888888;
+  border-radius: 50%;
+  float: left;
+  width: 1em;
+  height: 1em;
+  margin: 0.25em 0.5em 0 0.5em;
+  overflow-y: auto;
+}
+
+#text {
+  width: 98%;
+  height: 92%;
+  margin: 2em 0 2em 0.5em;
+  font-family: "Source Code Pro";
+  font-size: 1em;
+  color: #eeeeee;
+  line-height: 0.5em;
+  overflow-y: scroll;
+}

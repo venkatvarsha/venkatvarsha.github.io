@@ -1,0 +1,65 @@
+/* css styling: varsha venkat personal website */
+
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+/* general settings */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Abel';
+}
+
+a {
+  color: #a5e0e0;
+  text-decoration: inherit;
+}
+
+/* animations */
+
+/* class &  id properties */
+
+#navbar {
+  height: 3.3em;
+  width: 100%;
+  background-color: #4c4d4d;
+  padding-left: 60%;
+}
+
+#logo {
+  width: 2.5em;
+  position: fixed;
+  padding-left: 5em;
+  margin: 0.3em;
+}
+
+#logo:hover {
+  opacity: 0.5;
+}
+
+.page {
+  float: left;
+  color: #ffffff;
+  padding: 1em 3em 1em 3em;
+  cursor: pointer;
+}
+
+.page:hover {
+  background-color: #5b6464;
+  color: #a5e0e0;
+}
+
+#home-content {
+  margin-top: 12%;
+  text-align: center;
+}
+
+.icon {
+  height: 2em;
+  width: 2em;
+  margin-left: 1em;
+}
+
+#about-content {
+  margin: 10%;
+}
