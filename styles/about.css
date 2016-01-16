@@ -21,13 +21,6 @@ a:hover {
   color: #a5e0e0;
 }
 
-/* animations */
-
-@keyframes spin {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
-}
-
 #dropdown {
   margin: 0.75em 0 0 4em;
   width: 6em;
@@ -46,7 +39,8 @@ a:hover {
 
 #logo:hover {
   cursor: pointer;
-  animation: spin 0.75s 0s 1 linear;
+  transform: scale(1.1, 1.1);
+  box-shadow: 0.1em 0.1em 0.5em #888888;
 }
 
 #terminal {
